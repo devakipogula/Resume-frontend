@@ -1,0 +1,72 @@
+.contact-details{
+    text-align: end;
+    background-color: lightcyan;
+    font-size: 18px;
+}
+.obj-img{
+    margin-left: 670px;
+
+}
+.obj-header{
+    margin-top: -25px;
+    margin-left: 37px;
+    text-align: center;
+    background-color: lightcyan;
+}
+.obj-info{
+    font-size: 18px;
+}
+.education-table{
+    margin-left:10px;
+}
+table,tr,th,td{
+    width:1200px;
+    height:30px;
+  border: 1px solid black;
+  font-size: 17px;
+  
+}
+td{
+    text-align: center;
+}
+.academics{
+    font-size: 17px;
+    word-spacing: 1px;
+}
+.intern-info{
+    font-size: 17px;
+}
+span{
+    font-style: italic;
+}
+
+@media only screen and (max-width: 600px) {
+    /* Adjust styles for smaller screens */
+    body {
+      font-size: 14px;
+      max-width: 200px;
+       
+    }
+  
+    
+  }
+  
+  
+  @media only screen and (min-width: 601px) and (max-width: 900px) {
+   
+    body {
+      font-size: 16px; 
+      max-width: fit-content;/* Adjust font size */
+    }
+  
+   
+  }
+  
+  /* Media query for screens larger than 900 pixels */
+  @media only screen and (min-width: 901px) {
+    
+
+    
+    /* Default styles or additional adjustments for larger screens */
+  }
+  
